@@ -22,7 +22,7 @@ public class moving_sofa{
                 grid[i][j] = sc.next().charAt(0);
             }
         }
-        Queue<Sofa> queue = new ArrayDeque<>();
+        Queue<Sofa> queue = new ArrayDeque<>();  //by dhaanish
         int[] temp1 = new int[2];
         int[] temp2 = new int[2];
         Sofa s = new Sofa(0,0,0,0,0);
